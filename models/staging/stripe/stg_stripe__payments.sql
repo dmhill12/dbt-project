@@ -4,4 +4,4 @@ select
     payment_method,
     amount / 100 as amount
 
-from raw.jaffle_shop.payments
+from raw.stripe.payments
